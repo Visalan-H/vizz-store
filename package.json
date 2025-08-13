@@ -1,0 +1,33 @@
+{
+  "name": "vizz-store",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "react": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "~19.1.10",
+    "typescript": "~5.9.2"
+  },
+  "keywords": [
+    "react",
+    "hook",
+    "localstorage",
+    "useLocalStorage",
+    "typescript"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/vizz-store.git"
+  },
+  "description": "React hook that automatically syncs component state with browser localStorage"
+}
