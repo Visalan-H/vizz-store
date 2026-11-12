@@ -27,7 +27,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/vizz-store.git"
+    "url": "git+https://github.com/Visalan-H/vizz-store.git"
   },
-  "description": "React hook that automatically syncs component state with browser localStorage"
+  "description": "React hook that automatically syncs component state with browser localStorage",
+  "homepage": "https://github.com/Visalan-H/vizz-store#readme",
+  "bugs": {
+    "url": "https://github.com/Visalan-H/vizz-store/issues"
+  }
 }
